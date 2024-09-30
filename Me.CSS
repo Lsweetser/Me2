@@ -138,5 +138,11 @@ a.hobby-link.dark-mode {
 a.hobby-link.dark-mode:hover {
     text-decoration: underline;
 }
+/* Hover effect for the name */
+#name {
+    transition: color 0.3s ease; 
+}
 
-
+#name:hover {
+    color: rgb(255, 153, 0); /
+}
