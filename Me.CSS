@@ -96,6 +96,16 @@ button:hover {
     top: 2.22in;
     right: 0.5in;
     border-radius: 10px;
+
+}
+.image-caption {
+    position: absolute;
+    top: 8in; /* Adjust this value based on your image position */
+    right: 2.35in; /* Match this with the right position of the image */
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
 }
 
 /* Orange link styling */
@@ -138,11 +148,5 @@ a.hobby-link.dark-mode {
 a.hobby-link.dark-mode:hover {
     text-decoration: underline;
 }
-/* Hover effect for the name */
-#name {
-    transition: color 0.3s ease; 
-}
 
-#name:hover {
-    color: rgb(255, 153, 0); /
-}
+
