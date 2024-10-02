@@ -29,4 +29,12 @@ function initApplication() {
         });
     }
 }
-
+function changeNameColor() {
+    const nameElement = document.getElementById("name");
+    // Check the current color and toggle between white and orange
+    if (nameElement.style.color === 'rgb(255, 153, 0)') { // Orange color
+        nameElement.style.color = 'white'; // Change back to original white
+    } else {
+        nameElement.style.color = 'rgb(255, 153, 0)'; // Change to orange
+    }
+}
